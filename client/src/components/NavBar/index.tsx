@@ -6,7 +6,7 @@ import logo from "/src/images/logo.png";
 const index = () => {
   return (
     <HStack>
-      <Image src={logo} title="DevGram" />
+      <Image src={logo} title="DevGram" boxSize="32px" />
       <Search />
       <ColorModeSwitch />
     </HStack>

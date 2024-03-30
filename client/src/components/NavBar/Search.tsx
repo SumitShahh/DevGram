@@ -3,10 +3,12 @@ import { FaSearch } from "react-icons/fa";
 
 const Search = () => {
   return (
-    <InputGroup>
-      <InputLeftElement children={<FaSearch />} />
-      <Input placeholder="Search anything..."></Input>
-    </InputGroup>
+    <form onSubmit={(e) => e.preventDefault()}>
+      <InputGroup>
+        <InputLeftElement children={<FaSearch />} />
+        <Input placeholder="Search anything..."></Input>
+      </InputGroup>
+    </form>
   );
 };
 
