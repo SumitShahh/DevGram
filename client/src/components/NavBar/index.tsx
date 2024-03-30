@@ -5,7 +5,7 @@ import logo from "/src/images/logo.png";
 
 const index = () => {
   return (
-    <HStack>
+    <HStack marginBottom={5}>
       <Image src={logo} title="DevGram" boxSize="32px" />
       <Search />
       <ColorModeSwitch />
