@@ -19,3 +19,7 @@ We are going to use `grid` system provided by chakra to create responsive landin
 ## Creating SideBar
 
 Using `ListItem` and `ListIcon` components, we will render the side-bar. Routing through the side bar will be added later on.
+
+## Creating Content Pages
+
+For each section of the sidebar, there will be a content page like `Profile` ,`Discover`,`Settings`,`Messages`, etc.
