@@ -23,3 +23,7 @@ Using `ListItem` and `ListIcon` components, we will render the side-bar. Routing
 ## Creating Content Pages
 
 For each section of the sidebar, there will be a content page like `Profile` ,`Discover`,`Settings`,`Messages`, etc.
+
+## Creating Routes For Content Pages
+
+Since we created different content pages, it would be nice if we could just navigate between the pages on a click. That is where `react-router-dom` comes into play and helps us navigate between pages without any reload.
